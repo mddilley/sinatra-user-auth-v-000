@@ -33,6 +33,7 @@ class ApplicationController < Sinatra::Base
       redirect '/users/home'
     else
       redirect '/user/login'
+    end
   end
 
   get '/sessions/logout' do
